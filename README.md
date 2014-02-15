@@ -1,7 +1,7 @@
-GGAColorPicker
-==============
+GGACalendar
+===========
 
-Color Picker Library for Android.
+Calendar Library for Android.
 Can be used with Android 2.2 and above.
 
 Setup
