@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<RelativeLayout
+	    android:id="@+id/top_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp" >
+	    <ImageView
+	        android:id="@+id/month_left"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/bkg_btn_left" />
+	          
+		<TextView
+		    android:id="@+id/month_name"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_toLeftOf="@+id/month_right"
+		    android:layout_toRightOf="@+id/month_left"
+		    android:gravity="center"
+		    android:textColor="#000000"
+		    android:textSize="18sp" />
+		<ImageView
+		    android:id="@+id/month_right"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:src="@drawable/bkg_btn_right" />
+	</RelativeLayout>
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/top_layout" >
+	
+	    <LinearLayout
+	        android:id="@+id/calendar_layout"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="vertical" >
+	        
+	
+	    </LinearLayout>
+	    
+	</ScrollView>
+</RelativeLayout>
