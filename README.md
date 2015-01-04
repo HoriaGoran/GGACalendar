@@ -33,4 +33,4 @@ public class MainActivity extends FragmentActivity
 }
 ```
 
-![GGACalendarLib](https://raw2.github.com/HoriaGoran/GGACalendar/master/GGACalendarLib/Screenshot.png)
+![GGACalendarLib](https://raw.githubusercontent.com/HoriaGoran/GGACalendar/master/GGACalendarLib/Screenshot.png)
